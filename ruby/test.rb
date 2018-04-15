@@ -20,7 +20,7 @@ class MelltTest < Test::Unit::TestCase
   @@alpha = 'abcdefghijklmnopqrstuvwxyz'
   @@alpha_numeric = 'abcdefghijklmnopqrstuvwxyz0123456789'
   @@complex = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@\#$%^&*()-=_+"
-  @@extra_complex = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@\#$%^&*()-=_+[]\"{}|;':,./<>?`~"
+  @@extra_complex = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@\#$%^&*()-=_+[]\"{}|;':,./<>?`~ "
 
   def test_char_set_single_number
     m = MockMellt.new()
